@@ -1,10 +1,14 @@
 package com.herimleandra.lembretemedicamais.baseclasses
 
 data class Item(
+    val cnpj: String = "",
     val name: String = "",
     val email: String = "",
-    val password: String = "",
     val imageUrl: String = "",
-    val userId: String = ""
+    val endereco: String = "",
+    val userId: String = "",
+    val latitude: String = "",
+    val longitude: String = "",
+    var distancia: String = ""
 )
 
